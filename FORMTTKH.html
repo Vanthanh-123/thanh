@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FormTTKH</title>
+</head>
+<body>
+<form action="FORMTTKH.html" method="get">
+<h1>Market Research Survey</h1>
+    <p>Please take a few moments to complete this satisfaction survey.</p>
+        <label for="age">What is your age range</label><br>
+        <select name="age" id="age">
+  <option value="1">18-24</option>
+  <option value="2">25-34</option>
+  <option value="3">35-50</option>
+      <option value="4">50+</option>
+  </select><br>
+    </div>
+    <label for="income">What is your yearly income range?</label><br>
+    <select name="income" id="income">
+        <option value="1">$0-$25000</option>
+        <option value="2">$25001-$50000</option>
+        <option value="3">$50001-$100000</option>
+        <option value="4">$100000+</option>
+    </select><br>
+   <h5>Gender Identity</h5>
+    <label> <input type="radio" name="gender" value="male">Male</label><br>
+    <label> <input type="radio" name="gender" value="Female">Female</label><br>
+    <label> <input type="radio" name="gender" value="nonbiany">nonbiany</label><br>
+    <label> <input type="radio" name="gender" value="Other">Other</label><br>
+    Maximum of 250 characters
+    Currently Used:  characters <br>
+    <p>Which of the following products have your purchased in the last 2 months. Please check all that apply.
+    </p>
+    <input type="checkbox" name="product" id="product1">
+    <label for="product1">Product1</label><br>
+    <input type="checkbox" name="product" id="product2">
+    <label for="product2">Product2</label><br>
+    <input type="checkbox" name="product" id="product3">
+    <label for="product3">Product3</label><br>
+    <p>How often would you use our new product?</p>
+    <input type="radio" name="frequency" id="daily">
+    <label for="daily">daily</label><br>
+    <input type="radio" name="frequency" id="weekly">
+    <label for="weekly">weekly</label><br>
+    <input type="radio" name="frequency" id="monthly">
+    <label for="monthly">monthly</label><br>
+    <p>What would you pay for the new product?</p>
+   $ <input type="text" name="" id="dollars" size="15" > . <input type="text" name="" id="cents" size="5" ><br>
+    <label for="dollars">dollars</label>            <label for="cents">cents</label><br>
+    <label for="a">What would you pay for the new product?</label><br>
+    <textarea name="" id="a" cols="150" rows="10"></textarea><br>
+    <p>please rate your level of agreement with the following statements</p>
+    <table border="1" >
+       <tr style="background: darkgray">
+        <th></th>
+        <th>strongly disagree</th>
+        <th>disagree</th>
+        <th>agree</th>
+        <th>strongly agree</th>
+       </tr>
+        <tr>
+            <td>our products are priced fairly</td>
+            <td>
+                <input type="radio" name="priced">1
+            </td>
+            <td>
+                <input type="radio" name="priced">2
+            </td>
+            <td>
+                <input type="radio" name="priced">3
+            </td>
+            <td>
+                <input type="radio" name="priced">4
+            </td>
+        </tr>
+        <tr>
+            <td>our products are high fairly</td>
+            <td> <input type="radio" name="high">1</td>
+            <td> <input type="radio" name="high">2</td>
+            <td> <input type="radio" name="high">3</td>
+            <td> <input type="radio" name="high">4</td>
+        </tr>
+        <tr>
+            <td>you would recommend our product to a friend or coworker</td>
+            <td> <input type="radio" name="j">1</td>
+            <td> <input type="radio" name="j">2</td>
+            <td> <input type="radio" name="j">3</td>
+            <td> <input type="radio" name="j">4</td>
+        </tr>
+    </table>
+    <input type="submit" name="submit" value="Submit">
+</form>
+</body>
+</html>
